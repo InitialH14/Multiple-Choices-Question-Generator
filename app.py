@@ -24,16 +24,6 @@ LOCAL_QG_MODEL_PATH = "blaxx14/t5-question-generation"
 LOCAL_TRANS_INDO_ENG_PATH = "blaxx14/indo-eng-translator"
 LOCAL_TRANS_ENG_INDO_PATH = "blaxx14/eng-indo-translator"
 
-# Pastikan file model tersedia
-# if not os.path.exists(LOCAL_QG_MODEL_PATH):
-#     raise FileNotFoundError(f"Model file tidak ditemukan di path: {LOCAL_QG_MODEL_PATH}")
-
-# if not os.path.exists(LOCAL_TRANS_INDO_ENG_PATH):
-#     raise FileNotFoundError(f"Model file tidak ditemukan di path: {LOCAL_TRANS_INDO_ENG_PATH}")
-
-# if not os.path.exists(LOCAL_TRANS_ENG_INDO_PATH):
-#     raise FileNotFoundError(f"Model file tidak ditemukan di path: {LOCAL_TRANS_ENG_INDO_PATH}")
-
 
 """Mengubah string menjadi dictionary"""
 def parse_to_dict(input_string):
