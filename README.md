@@ -30,34 +30,7 @@ Clone the repository and install the required dependencies:
 git clone https://github.com/yourusername/mcq-generator-t5.git  
 cd mcq-generator-t5  
 pip install -r requirements.txt  
-```  
-
-## Usage  
-### 1. Command Line Interface (CLI)  
-```bash  
-python generate_mcq.py --input "Your input text here" --num_choices 4  
-```  
-
-### 2. API Usage  
-Start the API server:  
-```bash  
-python app.py  
-```  
-Send a POST request with the input text:  
-```bash  
-curl -X POST -H "Content-Type: application/json" -d '{"text": "Your input text here"}' http://localhost:5000/generate  
-```  
-
-### 3. Web Interface  
-Run the app and access it at `http://localhost:5000`.  
-
-## Fine-tuning  
-To fine-tune the T5 model for specific domains:  
-1. Prepare your dataset in a question-answer format.  
-2. Use the provided `fine_tune.py` script to train the model.  
-```bash  
-python fine_tune.py --dataset_path your_dataset.json --epochs 3  
-```  
+```
 
 ## Dependencies  
 - Python >= 3.8  
