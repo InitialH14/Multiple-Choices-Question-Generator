@@ -216,9 +216,8 @@ def api_generate_question():
         for sentence in parts:
             combined_input = ' '.join(sentence)
             result = generate_question(combined_input)
-            # result = summarize_eng_indo(result) tunggu model dari caca
             result_dict = parse_to_dict(result)
-            print(result_dict)
+            # print(result_dict)
             distractors = generate_distractors(result_dict["Question"], result_dict["Answer"])
             result_dict["distractor"] = distractors
             question_list.append(result_dict)
