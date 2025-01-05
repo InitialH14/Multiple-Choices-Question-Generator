@@ -5,7 +5,6 @@ This repository contains an implementation of a **Multiple Choice Question Gener
 ## Features  
 - **Text-to-MCQ Transformation**: Converts input text into multiple-choice questions with one correct answer and multiple distractors.  
 - **Pretrained Models**: Uses the Hugging Face T5 model fine-tuned for question generation tasks.  
-- **Interactive Demo**: Includes a web-based interface to test the generator in real-time.  
 - **API Support**: REST API endpoints for easy integration into existing systems.  
 
 ## How It Works  
